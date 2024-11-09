@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Link from 'next/link'
+import girlpic from '../../../public/girlpic.jpg'
 const Hero = () => {
   return (
     <div>
@@ -26,12 +27,13 @@ const Hero = () => {
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
-      <img
+      <Image
         className="object-cover object-center rounded border 5px solid "
-        alt="hero"
+        alt="girlpic"
         width={300}
         height={300}
-        src="/girl pic.jpg"/>
+        src= {girlpic}
+        />
     </div>
   </div>
 </section>
