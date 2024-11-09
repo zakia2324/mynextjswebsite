@@ -31,7 +31,7 @@ const Hero = () => {
         alt="hero"
         width={300}
         height={300}
-        src="https://th.bing.com/th/id/OIP.LfBtLCx5jWjmzpI_LDs5TwHaL-?w=122&h=197&c=7&r=0&o=5&dpr=1.5&pid=1.7"/>
+        src="/girl pic.jpg"/>
     </div>
   </div>
 </section>
