@@ -32,8 +32,7 @@ const Hero = () => {
         alt="girlpic"
         width={300}
         height={300}
-        src= {girlpic}
-        />
+        src= {girlpic} />
     </div>
   </div>
 </section>
