@@ -5,11 +5,11 @@ import React from 'react';
 const skills = () => {
   return (
     <div id="skills">
-      <section className="text-gray-600 body-font">
-  <div className="container px-5 py-24 mx-auto">
+      <section className="text-gray-600 body-font hover:to-blue-700">
+  <div className="container px-5 py-24 mx-auto hover:to-blue-700">
     <div className="flex flex-col text-center w-full mb-20">
       <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
-        My Skills
+        
       </h2>
       <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
         My skills
@@ -32,11 +32,11 @@ const skills = () => {
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
               </svg>
             </div>
-            <h2 className="text-gray-900 text-lg title-font font-medium">
+            <h2 className="text-gray-900 text-lg title-font font-medium hover:to-blue-700">
               HTML
             </h2>
           </div>
-          <div className="flex-grow">
+          <div className="flex-grow hover:to-blue-700">
           <p className="leading-relaxed text-base">
               Responsive Web Design, Optimization Techniques,
             </p>
@@ -126,16 +126,25 @@ const skills = () => {
                 
               >
                 <path d="M5 12h14M12 5l7 7-7 7" />
+                
               </svg>
             </a>
+            
           </div>
+          
         </div>
+        
       </div>
+      
     </div>
+    
   </div>
+  
 </section>
 
+
     </div>
+    
   )
 }
 

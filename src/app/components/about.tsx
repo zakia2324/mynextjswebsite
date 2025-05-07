@@ -29,11 +29,10 @@ const About = () => {
         
       </h1>
       <p className="mb-5 leading-relaxed">
-        Hello, My name is Zakia shahan, I am a frontend develpor, I did my course  from GIAIC , I have 2 years experience as a freelancer, 
-        I am a UI, UX Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium.
+      I am a frontend developer with a strong eye for design and a passion for crafting seamless digital experiences. With expertise in HTML, CSS, JavaScript, TypeScript, Next.js, Tailwind CSS, and ShadCN, I build intuitive and engaging interfaces. In addition to coding, I have hands-on experience with Figma, allowing me to design and structure websites with precision before development. 
       </p>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta reiciendis necessitatibus placeat commodi labore illo, minus accusantium. Quae, necessitatibus possimus!
+      My approach blends creativity and functionality, ensuring every project is both visually appealing and user-friendly.
       </p>
       <div className="flex justify-center">
         <Link href={"/cv/myCv/ZAKIA RESUME.pdf"}>

@@ -14,8 +14,7 @@ const Hero = () => {
         develpor
       </h1>
       <p className="mb-8 leading-relaxed">
-        My name is Zakia Ali, i am a frontend develpor.i know HTML,CSS,JavaScript,Typescript,
-        Next.Js, Tailwind CSS.I am passionate and a hard working women.my hard work makes me differnet from others.
+      I am a passionate frontend developer with expertise in modern web technologies. My skill set includes HTML, CSS, JavaScript, TypeScript, Next.js, Tailwind CSS, and ShadCN. I specialize in creating aesthetically pleasing and functional interfaces that prioritize responsiveness and user experience. My approach goes beyond writing code—I strive to craft seamless, intuitive, and engaging digital experiences.
       </p>
       <div className="flex justify-center">
         <Link href={"#contact"}>
