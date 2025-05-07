@@ -32,6 +32,7 @@ const skills = () => {
                 <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
               </svg>
             </div>
+            
             <h2 className="text-gray-900 text-lg title-font font-medium hover:to-blue-700">
               HTML
             </h2>
