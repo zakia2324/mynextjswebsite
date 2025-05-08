@@ -5,7 +5,7 @@ import React from 'react';
 const skills = () => {
   return (
     <div id="skills">
-      <section className="text-gray-600 body-font hover:to-blue-700">
+      <section className="text-gray-600 body-font hover:to-blue-700 pt-[120px]">
   <div className="container px-5 py-24 mx-auto hover:to-blue-700">
     <div className="flex flex-col text-center w-full mb-20">
       <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
@@ -63,8 +63,9 @@ const skills = () => {
                 <circle cx={12} cy={7} r={4} />
               </svg>
             </div>
+            
             <h2 className="text-gray-900 text-lg title-font font-medium">
-              CSS
+              CSS, Tailwind css
             </h2>
           </div>
           <div className="flex-grow">
@@ -133,7 +134,9 @@ const skills = () => {
             
           </div>
           
+          
         </div>
+        
         
       </div>
       
@@ -144,9 +147,12 @@ const skills = () => {
 </section>
 
 
+
     </div>
+    
     
   )
 }
+
 
 export default skills

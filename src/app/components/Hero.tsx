@@ -5,7 +5,7 @@ import girlpic from '../../../public/girlpic.jpg'
 const Hero = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font bg-gray-100">
+      <section className="text-gray-600 body-font bg-gray-100 pt-[60px]">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -13,8 +13,8 @@ const Hero = () => {
         <br className="hidden lg:inline-block" />
         develpor
       </h1>
-      <p className="mb-8 leading-relaxed">
-      I am a passionate frontend developer with expertise in modern web technologies. My skill set includes HTML, CSS, JavaScript, TypeScript, Next.js, Tailwind CSS, and ShadCN. I specialize in creating aesthetically pleasing and functional interfaces that prioritize responsiveness and user experience. My approach goes beyond writing code—I strive to craft seamless, intuitive, and engaging digital experiences.
+      <p className="mb-8 leading-relaxed ">
+      I am a passionate frontend developer with expertise in modern web technologies. My skills set includes HTML, CSS, JavaScript, TypeScript, Next.js, Tailwind CSS, and ShadCN. I specialize in creating aesthetically pleasing and functional interfaces that prioritize responsiveness and user experience. My approach goes beyond writing code—I strive to craft seamless, intuitive, and engaging digital experiences.
       </p>
       <div className="flex justify-center">
         <Link href={"#contact"}>

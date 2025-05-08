@@ -1,9 +1,11 @@
 import React from 'react'
 
+
+
 const contact = () => {
   return (
     <div id="contact">
-      <section className="text-gray-600 body-font relative">
+      <section className="text-gray-600 body-font relative pt-[80px]">
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
     <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
       <iframe
@@ -15,7 +17,6 @@ const contact = () => {
         marginHeight={0}
         marginWidth={0}
         scrolling="no"
-// src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57893.15674844558!2d67.05020555414059!3d24.921088139456998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338b808bfd6b1%3A0x997b1a02c2570822!2sGulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1730674305689!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
         
         style={{ filter:" contrast(1.2) opacity(0.4)" }}
         />
@@ -23,19 +24,19 @@ const contact = () => {
       <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
         <div className="lg:w-1/2 px-6">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
-            ADDRESS
+        ADDRESS
           </h2>
           <p className="mt-1">
-            Gulshan iqbal block 4a..Karachi 
+        Gulshan iqbal block 4a..Karachi 
           </p>
         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
-            EMAIL
+        EMAIL
           </h2>
-          <a className="text-blue-500 leading-relaxed">zakiaali194@gmail.com</a>
+          <a href="mailto:zakiaali194@gmail.com" className="text-blue-500 leading-relaxed">zakiaali194@gmail.com</a>
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
-            PHONE
+        PHONE
           </h2>
           <p className="leading-relaxed">123-456-7890</p>
         </div>
@@ -94,4 +95,3 @@ const contact = () => {
 }
 
 export default contact
-//  { <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57893.15674844558!2d67.05020555414059!3d24.921088139456998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338b808bfd6b1%3A0x997b1a02c2570822!2sGulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1730674305689!5m2!1sen!2s" width="600" height="450" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> }

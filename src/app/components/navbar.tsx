@@ -16,7 +16,7 @@ const Navbar = () => {
       <Link href="/" className="mr-5 hover:text-blue-600">Home</Link>
       <Link href={"#about"}className="mr-5 hover:text-blue-600">About</Link>
       <Link href={"#skills"} className="mr-5 hover:text-blue-600">Skills</Link>
-      <Link href="#Project" className="mr-5 hover:text-blue-600">Projects</Link>
+      <Link href={"#projects"} className="mr-5 hover:text-blue-600">Projects</Link>
       <Link href="#contact" className="mr-5 hover:text-blue-600">Contact</Link>
     </nav>
     <button className="inline-flex items-center bg-black border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">

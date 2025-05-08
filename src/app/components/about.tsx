@@ -6,7 +6,7 @@ import girlpic from"../../../public/girlpic.jpg"
 const About = () => {
   return (
     <div id="about">
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font pt-[120px] ">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
       <Image
@@ -35,8 +35,8 @@ const About = () => {
       My approach blends creativity and functionality, ensuring every project is both visually appealing and user-friendly.
       </p>
       <div className="flex justify-center">
-        <Link href={"/cv/myCv/ZAKIA RESUME.pdf"}>
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+        <Link href={"/cv/myCv/my resume frontend developer.pdf"}>
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-[20px]">
           view my cv
         </button>
         </Link>
