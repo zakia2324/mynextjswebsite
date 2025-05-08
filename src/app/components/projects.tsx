@@ -5,12 +5,12 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import { Divide } from 'lucide-react'
+// import { Divide } from 'lucide-react'
 
 const projects = () => {
   return (
     <div id="projects">
-        <h1 className="text-4xl font-bold text-center pt-20 sm:pt-32">Projects</h1>
+        <h1 className='text-4xl font-bold ml-[660px] pt-[220px]'>Projects</h1>
       <AccordionDemo />
     </div>
   )
